@@ -16,7 +16,7 @@ def read_data():
     df=pd.read_sql_query(query,conn)
     return df
 def clear_db():
-    conn=sqllite3.connect("sharawy.db")
+    conn=sqlite3.connect("sharawy.db")
     cursor=conn.cursor()
     cursor.execute('DELETE FROM users')
     conn.commit()
