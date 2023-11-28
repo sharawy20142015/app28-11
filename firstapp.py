@@ -25,7 +25,7 @@ st.bar_chart(data=read_data(),x='name',y='age')
 title = st.text_input('Movie title', 'Life of Brian')
 if st.button('insert'):
     clear_db()
-    add_data('momom',15)
+    add_data('sharawy',15)
 
     
 
